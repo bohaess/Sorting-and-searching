@@ -10,7 +10,7 @@ while i < length(arr)
     x ← arr[i]
     j ← i - 1
     while j >= 0 and arr[j] > x
-        A[j+1] ← arr[j]
+        arr[j+1] ← arr[j]
         j ← j - 1
     end while
     arr[j+1] ← x
